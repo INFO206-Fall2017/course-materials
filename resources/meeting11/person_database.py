@@ -29,7 +29,7 @@ class Person(object):
 	def setBirthday(self, birthdate):
 		"""Assumes birthdate is of type datetime.date
 		   Sets self's birthday to birthdate"""
-		self.birthdate = birthdate
+		self.birthday = birthdate
 
 	def getAge(self):
 		"""Returns person's current age in days"""
