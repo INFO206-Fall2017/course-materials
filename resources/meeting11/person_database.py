@@ -35,7 +35,7 @@ class Person(object):
 		"""Returns person's current age in days"""
 		if self.birthday == None:
 			raise ValueError
-		return (datetime.date.today() = self.birthday).days
+		return (datetime.date.today() - self.birthday).days
 
 	def __str__(self):
 		"""Returns person's name"""
