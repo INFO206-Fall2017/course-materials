@@ -88,4 +88,4 @@ def compareMortgages(amt, years, fixedRate, pts, ptsRate, varRate1, varRate2, va
 		
 if __name__ == '__main__':
 
-	compareMortgages(amt = 200000, years = 30, fixedRate = 0.07, pts = 3.25, ptsRate = 0.05, varRate1 = 0.045, varRate2 = 0.095, varMonths = 48)
+	compareMortgages(amt = 200000, years = 30, fixedRate = 0.02, pts = 3.25, ptsRate = 0.01, varRate1 = 0.015, varRate2 = 0.05, varMonths = 48)
