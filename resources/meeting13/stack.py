@@ -1,3 +1,9 @@
+"""
+# Selection sort method, aka insertion sort
+Source: Lee & Hubbard (2015). "Data Structures and Algorithms with Python"
+http://knuth.luther.edu/~leekent/CS2Plus/chap4/chap4.html
+"""
+
 class Stack:
     def __init__(self):
         self.items = []
